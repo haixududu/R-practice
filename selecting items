@@ -1,0 +1,10 @@
+# R-practice
+using swirl to learn R language
+test github
+selecting special items
+x[c(1, 3, 5)}
+echo "# R-practice" >> README.md
+It's important that when using integer vectors to subset our vector x, we
+| stick with the set of indexes {1, 2, ..., 40} since x only has 40 elements.
+| What happens if we ask for the zeroth element of x (i.e. x[0])? Give it a
+| try.
