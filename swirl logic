@@ -1,0 +1,18 @@
+逻辑关系
+==
+<=, <
+>= , >
+!= not equal the opposite of this !x == x negating expression 
+question: This expression may be a little tricky, 
+so think about negating the expression 5 == 7 (all you need is an exclamation point in front).
+answer: !5 == 7
+explaination: Let's take a moment to review. The equals operator `==` tests whether two
+| boolean values or numbers are equal, the not equals operator `!=` tests
+| whether two boolean values or numbers are unequal, and the NOT operator `!`
+| negates logical expressions so that TRUE expressions become FALSE and FALSE
+| expressions become TRUE.
+more practice:  Which of the following evaluates to FALSE?
+correct anwer:  !(0 >= -1)
+more practice: What do you think the following expression will evaluate to?: (TRUE != FALSE)
+| == !(6 == 7)
+answer:TRUE
