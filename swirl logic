@@ -4,7 +4,17 @@
 >= , 
 && /& = and 
 |/|| = or 
-!= not equal the opposite of this !x == x negating expression 
+!= not equal the opposite of this !x == x negating expression
+istrue(true)
+xor(5 == 6, !FALSE) xor() exclusive 
+ints()
+which(ints<2) indicates the elements 
+any() return true 
+The all() function will return TRUE if
+| every element in the logical vector is TRUE.
+
+
+
 question: This expression may be a little tricky, 
 so think about negating the expression 5 == 7 (all you need is an exclamation point in front).
 answer: !5 == 7
@@ -37,3 +47,13 @@ output: [1] TRUE
  5 > 8 || 6 != 8 && 4 > 3.9
  istrue()=true
  
+
+question: Use the any() function to see if any of the elements of ints are less than
+| zero.
+answer: any( ints < 0)
+question:  Use the all() function to see if all of the elements of ints are greater than
+| zero
+answer:all(ints > 0)
+
+
+
